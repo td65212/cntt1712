@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+  .blank{
+    flex: 1;
+  }
+  
+  header {
+    background-color: rgb(160, 53, 53);
+    color:white;
+    padding: 20px;
+  }
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    padding: 30px;
+  }
+  .line1 {
+    width: 46%;
+  }
+  .row1{
+    padding-left: 10px;
+  }
